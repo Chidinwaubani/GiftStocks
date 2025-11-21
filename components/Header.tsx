@@ -44,9 +44,12 @@ export const Header: React.FC = () => {
             <a href="#why-giftstocks" className="text-slate-600 hover:text-brand-600 font-medium transition-colors text-sm">
               Why Us
             </a>
-            <button className="px-5 py-2.5 rounded-full bg-slate-900 text-white font-medium text-sm hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 hover:shadow-slate-900/20">
-              Get Started
-            </button>
+            <a 
+              href="#waitlist"
+              className="px-5 py-2.5 rounded-full bg-slate-900 text-white font-medium text-sm hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 hover:shadow-slate-900/20"
+            >
+              Join Waitlist
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -87,9 +90,13 @@ export const Header: React.FC = () => {
               Why GiftStocks
             </a>
             <div className="pt-4">
-              <button className="w-full py-3.5 rounded-xl bg-brand-600 text-white font-semibold shadow-lg">
-                Start Gifting
-              </button>
+              <a
+                href="#waitlist"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block w-full text-center py-3.5 rounded-xl bg-brand-600 text-white font-semibold shadow-lg"
+              >
+                Join Waitlist
+              </a>
             </div>
           </div>
         </div>

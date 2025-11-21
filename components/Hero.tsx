@@ -35,10 +35,13 @@ export const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold text-white transition-all bg-slate-900 rounded-full hover:bg-slate-800 hover:scale-105 shadow-xl shadow-slate-900/20">
-                Start Gifting Stocks
+              <a 
+                href="#waitlist"
+                className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold text-white transition-all bg-slate-900 rounded-full hover:bg-slate-800 hover:scale-105 shadow-xl shadow-slate-900/20"
+              >
+                Join the Waitlist
                 <ArrowRight className="ml-2 -mr-1 w-5 h-5" />
-              </button>
+              </a>
               <button className="inline-flex justify-center items-center px-8 py-4 text-base font-semibold text-slate-700 transition-all bg-white border border-slate-200 rounded-full hover:bg-slate-50 hover:border-slate-300">
                 View Sample Gift
               </button>
