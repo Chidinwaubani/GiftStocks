@@ -6,7 +6,7 @@ import { HowItWorks } from './components/HowItWorks';
 import { Occasions } from './components/Occasions';
 import { AIGiftAdvisor } from './components/AIGiftAdvisor';
 import { Features } from './components/Features';
-import { Testimonials } from './components/Testimonials';
+import { TrustedPartners } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Footer } from './components/Footer';
 import { CTA } from './components/CTA';
@@ -55,10 +55,10 @@ const App: React.FC = () => {
                 <AIGiftAdvisor />
             </div>
         </div>
-        <div id="why-giftstocks">
+        <div id="why-giftingstocks">
           <Features />
         </div>
-        <Testimonials />
+        <TrustedPartners />
         <FAQ />
         <CTA />
       </main>

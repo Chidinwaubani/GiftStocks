@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
                  <Gift size={20} strokeWidth={2.5} />
                </div>
                <span className="font-display font-bold text-lg text-slate-900">
-                 GiftStocks
+                 GiftingStocks
                </span>
             </div>
             <p className="text-slate-500 text-sm leading-relaxed mb-6">
@@ -58,7 +58,7 @@ export const Footer: React.FC = () => {
 
         <div className="border-t border-slate-100 pt-8 text-center">
           <p className="text-xs text-slate-400">
-            © {new Date().getFullYear()} GiftStocks, Inc. All rights reserved. Investing involves risk, including loss of principal.
+            © {new Date().getFullYear()} GiftingStocks, Inc. All rights reserved. Investing involves risk, including loss of principal.
           </p>
         </div>
       </div>

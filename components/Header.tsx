@@ -17,7 +17,7 @@ export const Header: React.FC = () => {
     <header
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled || isMobileMenuOpen
-          ? 'bg-white/80 backdrop-blur-lg shadow-sm border-b border-slate-100'
+          ? 'bg-white/90 backdrop-blur-lg shadow-sm border-b border-slate-100'
           : 'bg-transparent'
       }`}
     >
@@ -25,28 +25,28 @@ export const Header: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            <div className="bg-brand-500 text-white p-2 rounded-xl shadow-lg shadow-brand-500/20">
+            <div className="bg-gift-500 text-white p-2 rounded-xl shadow-lg shadow-gift-500/20">
               <Gift size={24} strokeWidth={2.5} />
             </div>
             <span className="font-display font-bold text-xl tracking-tight text-slate-900">
-              GiftStocks
+              GiftingStocks
             </span>
           </div>
 
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#how-it-works" className="text-slate-600 hover:text-brand-600 font-medium transition-colors text-sm">
+            <a href="#how-it-works" className="text-slate-600 hover:text-gift-600 font-medium transition-colors text-sm">
               How it Works
             </a>
-            <a href="#occasions" className="text-slate-600 hover:text-brand-600 font-medium transition-colors text-sm">
+            <a href="#occasions" className="text-slate-600 hover:text-gift-600 font-medium transition-colors text-sm">
               Occasions
             </a>
-            <a href="#why-giftstocks" className="text-slate-600 hover:text-brand-600 font-medium transition-colors text-sm">
+            <a href="#why-giftingstocks" className="text-slate-600 hover:text-gift-600 font-medium transition-colors text-sm">
               Why Us
             </a>
             <a 
               href="#waitlist"
-              className="px-5 py-2.5 rounded-full bg-slate-900 text-white font-medium text-sm hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 hover:shadow-slate-900/20"
+              className="px-6 py-2.5 rounded-full bg-slate-900 text-white font-medium text-sm hover:bg-slate-800 transition-all shadow-lg shadow-slate-900/10 hover:shadow-slate-900/20"
             >
               Join Waitlist
             </a>
@@ -70,30 +70,30 @@ export const Header: React.FC = () => {
           <div className="px-4 pt-2 pb-6 space-y-2">
             <a
               href="#how-it-works"
-              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50"
+              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-gift-50"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               How it Works
             </a>
             <a
               href="#occasions"
-              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50"
+              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-gift-50"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Occasions
             </a>
             <a
-              href="#why-giftstocks"
-              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50"
+              href="#why-giftingstocks"
+              className="block px-3 py-4 rounded-xl text-base font-medium text-slate-700 hover:bg-gift-50"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Why GiftStocks
+              Why GiftingStocks
             </a>
             <div className="pt-4">
               <a
                 href="#waitlist"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block w-full text-center py-3.5 rounded-xl bg-brand-600 text-white font-semibold shadow-lg"
+                className="block w-full text-center py-3.5 rounded-xl bg-slate-900 text-white font-semibold shadow-lg"
               >
                 Join Waitlist
               </a>

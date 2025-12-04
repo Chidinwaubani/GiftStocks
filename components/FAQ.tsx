@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Can I gift stocks I already own?",
-    answer: "Currently, GiftStocks facilitates the purchase of new fractional shares to ensure easy transfer and tax basis tracking. Direct transfer of existing assets is coming in V2."
+    answer: "Currently, GiftingStocks facilitates the purchase of new fractional shares to ensure easy transfer and tax basis tracking. Direct transfer of existing assets is coming in V2."
   },
   {
     question: "Are there fees?",

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GiftStocks – Invest in Their Future</title>
-    <meta name="description" content="Gift stocks to your loved ones for birthdays, anniversaries, and special moments with GiftStocks. Buy, transfer, and personalize your present securely." />
+    <title>GiftingStocks – Invest in Their Future</title>
+    <meta name="description" content="Gift stocks to your loved ones for birthdays, anniversaries, and special moments with GiftingStocks. Buy, transfer, and personalize your present securely." />
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <script>
@@ -23,6 +23,14 @@
                 600: '#0284c7',
                 900: '#0c4a6e', // Deep Navy
               },
+              gift: {
+                50: '#fff1f2', // Rose/Pink tints for gifting vibe
+                100: '#ffe4e6',
+                200: '#fecdd3',
+                400: '#fb7185',
+                500: '#f43f5e', // Main Gift Red/Pink
+                600: '#e11d48',
+              },
               accent: {
                 400: '#34d399', // Soft Emerald
                 500: '#10b981',
@@ -33,11 +41,16 @@
             },
             animation: {
               'ticker': 'ticker 30s linear infinite',
+              'float': 'float 6s ease-in-out infinite',
             },
             keyframes: {
               ticker: {
                 '0%': { transform: 'translateX(0)' },
                 '100%': { transform: 'translateX(-100%)' },
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
               }
             }
           },
